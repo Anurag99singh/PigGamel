@@ -192,4 +192,6 @@ main {
     top: 0.5rem;
     height: 7rem;
   }
+  .score {
+    font-size: 4rem;}
 }
