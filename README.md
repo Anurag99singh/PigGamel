@@ -10,7 +10,7 @@ A simple web-based Pig Game implemented using JavaScript, HTML, and CSS.
 
 ## Demo
 
-You can play the game live [here](link-to-your-game).
+You can play the game live [here](https://anurag99singh.github.io/Pig-Game/).
 
 ## Description
 
