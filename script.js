@@ -51,8 +51,6 @@ finalscore[activeplayer];
 if (finalscore[activeplayer] >= 50) {
     // Finish the game
     playing = false;
-    // dice.classList.add('hidden');
-
     document
       .querySelector(`.player--${activeplayer}`)
       .classList.add('player--winner');
@@ -65,6 +63,7 @@ if (finalscore[activeplayer] >= 50) {
     switchplayer();
   }
 }})
+// switch player functionality
 let switchplayer=()=>
 {
     document.getElementById(`current--${activeplayer}`).textContent = 0;
@@ -74,6 +73,7 @@ let switchplayer=()=>
     pl1.classList.toggle('player--active');
    
 }
+// inital fuction
 let initialfunction=()=>{
     score0.textContent = 0;
     score1.textContent = 0;
@@ -83,12 +83,12 @@ let initialfunction=()=>{
     finalscore=[0,0];
     playing=true;
     activeplayer = 0;
-    diceel.classList.add("hidden");
+    // diceel.classList.add("hidden");
    pl0.classList.remove("player--winner");
    pl1.classList.remove("player--winner");
    pl0.classList.add("player--active");
    pl1.classList.remove("player--active");
 };
 initialfunction(); 
-
+// new button functionality
 newbtn.addEventListener('click',initialfunction);

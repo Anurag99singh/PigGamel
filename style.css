@@ -174,25 +174,30 @@ main {
     overflow: visible;
     /* visibility: none; */
     flex-direction: column;
+    height: 77rem;
   }
   .player {
     gap: 20px;
     flex-direction: row;
   }
   .btn--new {
-    top: 23rem;
+    top: 2rem;
   }
   .btn--roll {
-    top: 31.3rem;
+    top: 70.3rem;
   }
   .btn--hold {
-    top: 53.1rem;
+    top: 38.1rem;
   }
   .dice {
-    top: 0.5rem;
+    top: 28.5rem;
     height: 7rem;
   }
   .score {
-    font-size: 4rem;
+    font-size: 10rem;
   }
+  .current-score {
+    font-size: 5.5rem;
+}
+
 }
