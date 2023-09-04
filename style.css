@@ -180,16 +180,16 @@ main {
     flex-direction: row;
   }
   .btn--new {
-    top: 2rem;
+    top: 23rem;
   }
   .btn--roll {
-    top: 54.3rem;
+    top: 31.3rem;
   }
   .btn--hold {
-    top: 31.1rem;
+    top: 53.1rem;
   }
   .dice {
-    top: 22.5rem;
+    top: 0.5rem;
     height: 7rem;
   }
   .score {
