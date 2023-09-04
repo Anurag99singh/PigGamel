@@ -83,7 +83,7 @@ let initialfunction=()=>{
     finalscore=[0,0];
     playing=true;
     activeplayer = 0;
-    diceel.classList.add("hidden");
+    // diceel.classList.add("hidden");
    pl0.classList.remove("player--winner");
    pl1.classList.remove("player--winner");
    pl0.classList.add("player--active");
